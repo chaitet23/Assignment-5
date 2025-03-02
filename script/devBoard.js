@@ -10,6 +10,8 @@ document.getElementById('change-color').addEventListener('click',function(){
    document.body.style.backgroundColor=randomColor;
 });
 document.getElementById("dateDisplay").innerText = new Date().toDateString();
+
+
 function updateTask (btnId, taskContentId,navContentId, taskNameId, activityLogId){
    document.getElementById(btnId).addEventListener('click',function(){
       alert('Board updated successfully')

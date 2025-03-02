@@ -11,12 +11,12 @@ function disableButton(buttonId) {
         }
     })
     } 
-    disableButton('btn-1')
-    disableButton('btn-2')
-    disableButton('btn-3')
-    disableButton('btn-4')
-    disableButton('btn-5')
-    disableButton('btn-6')
+    disableButton('btn-1');
+    disableButton('btn-2');
+    disableButton('btn-3');
+    disableButton('btn-4');
+    disableButton('btn-5');
+    disableButton('btn-6');
 
 
 
