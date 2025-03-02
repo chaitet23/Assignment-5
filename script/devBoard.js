@@ -23,12 +23,6 @@ function updateTask (btnId, taskContentId,navContentId, taskNameId, activityLogI
    let navValue = parseInt(navContent.innerText);
    let navValueAdd = navValue + 1;
    navContent.innerText = navValueAdd;
-      
-   let btn = document.getElementById('btn-1')
-   btn.style.opacity='0.3';
-   btn.style.color = 'bg-blue-100'
-     btn.style.pointerEvents='none' 
- 
      if(navValueAdd > 28){
       alert('congrates!! You have complated all the current Task');
      }
